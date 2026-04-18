@@ -1,3 +1,5 @@
+//Given a string, find the first character that appears only once and return its index. If none exists, return -1.
+
 function UniqueCharacter(str){
     const count = {};
     for(let char of str) count[char] = (count[char] || 0) + 1;
